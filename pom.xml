@@ -17,16 +17,17 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
-   </dependency>
+    </dependency>
   </dependencies>
     <build>
         <finalName>maven-unit-test</finalName>
+        
         <plugins>
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-		        <artifactId>maven-jar-plugin</artifactId>
-		        <version>3.0.2</version>
+			        <artifactId>maven-jar-plugin</artifactId>
+			        <version>3.0.2</version>
             </plugin>
 
         </plugins>
